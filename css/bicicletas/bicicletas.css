@@ -61,13 +61,14 @@
   align-items: center;
 }
 
+.bicicletas ul {
+  display: grid;
+  gap: 16px;
+}
+
 .bicicletas-conteudo img {
   width: 24px;
   margin-right: 8px;
-}
-
-.bicicletas li + li {
-  margin-top: 16px;
 }
 
 @media (max-width: 800px) {
@@ -90,6 +91,7 @@
 
   .bicicletas ul {
     font-size: 1rem;
+    grid-template-columns: 1fr 1fr;
     margin-bottom: 32px;
   }
 
