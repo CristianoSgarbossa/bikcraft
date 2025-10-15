@@ -9,13 +9,13 @@ h2,
 h3,
 h4,
 ul,
+p,
 blockquote,
 dd {
   margin: 0px;
 }
 
 ul {
-  margin: 0px;
   padding: 0px;
   list-style: none;
 }
@@ -27,6 +27,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
